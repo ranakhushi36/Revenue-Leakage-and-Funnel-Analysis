@@ -8,6 +8,7 @@ E-commerce businesses often lose revenue due to order cancellations, delivery de
 - Evaluate category, city, and state-level performance
 - Track operational KPIs like delivery time, on-time %, and failure rates
 3. Dataset Description
+
 The dataset used in this project is the Olist Brazilian E-Commerce Dataset, sourced from Kaggle.
 It contains real-world transactional data from a Brazilian e-commerce platform, including orders, customers, products, payments, reviews, and delivery information.
 This dataset enables end-to-end analysis of the order lifecycle, making it suitable for identifying revenue leakage and funnel inefficiencies.
