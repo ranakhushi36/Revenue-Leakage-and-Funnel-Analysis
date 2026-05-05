@@ -9,7 +9,6 @@ It focuses on identifying **revenue leakage and operational inefficiencies** acr
 * **SQL** → Data extraction, cleaning, and transformation
 * **Power BI** → Dashboard creation and business insights
 
----
 
 ##  Problem Statement
 
@@ -21,7 +20,6 @@ Key questions addressed:
 * Why are some orders not converting into successful deliveries?
 * How do operational issues impact revenue realization?
 
----
 
 ## Solution Approach
 
@@ -34,7 +32,6 @@ Key questions addressed:
    * Delivery performance
 4. Created interactive dashboards in Power BI to uncover insights
 
----
 
 ## Funnel Analysis (Where Revenue is Lost)
 
@@ -49,7 +46,6 @@ Key questions addressed:
  **Key Takeaway:**
 Even minor drop-offs in the funnel lead to measurable revenue leakage.
 
----
 
 ## Delivery Performance (Why It Happens)
 
