@@ -6,7 +6,6 @@ This document summarizes the most critical insights derived from the analysis of
 
 The focus is on identifying **where revenue is lost and why operational inefficiencies occur**.
 
----
 
 ## 1. Funnel Drop-offs Impact Revenue
 
@@ -24,7 +23,6 @@ Even a small percentage drop in funnel stages leads to significant revenue loss 
 * Lost conversions directly reduce realized revenue
 * Improving even 1–2% in conversion can lead to substantial gains
 
----
 
 ## 2. Delivery Delays Are a Key Failure Point
 
@@ -42,7 +40,6 @@ Late deliveries increase the probability of cancellations and failed orders.
 * Poor delivery performance reduces customer trust
 * Direct contribution to revenue leakage
 
----
 
 ## 3. Regional Imbalance in Delivery Performance
 
@@ -60,7 +57,6 @@ Operational inefficiencies are geographically concentrated.
 * Targeted logistics improvements can significantly reduce delays
 * Resource allocation can be optimized by region
 
----
 
 ## 4. Revenue Leakage Is Systematic
 
@@ -78,8 +74,6 @@ Leakage is caused by structural inefficiencies rather than isolated issues.
 * Requires process-level improvements, not short-term fixes
 * Indicates deeper operational gaps
 
----
-
 ## 5. Certain Categories Contribute More to Losses
 
 ### Observation
@@ -94,8 +88,6 @@ Revenue leakage is not evenly distributed across categories.
 
 * High-risk categories need stricter quality control
 * Inventory and fulfillment strategies can be optimized
-
----
 
 ## 6. High Revenue Does Not Equal High Efficiency
 
@@ -113,7 +105,6 @@ Top-line metrics can hide operational problems.
 * Decision-making based only on revenue is misleading
 * Efficiency metrics must be tracked alongside growth
 
----
 
 ## Final Conclusion
 
@@ -125,7 +116,6 @@ Key drivers:
 * Delivery delays
 * Regional inefficiencies
 
----
 
 ## Recommendations
 
