@@ -1,45 +1,110 @@
-# Revenue-Leakage-and-Funnel-Analysis
-Revenue Leakage & Funnel Analysis Dashboard (SQL + Power BI)
-1. Problem Statement
-E-commerce businesses often lose revenue due to order cancellations, delivery delays, and inefficiencies in the order funnel. This project identifies key leakage points across the order lifecycle and provides actionable insights to improve revenue retention and operational efficiency.
-2. Objective
-- Identify revenue leakage sources (cancellations, failed deliveries, delays)
-- Analyze funnel drop-offs from order placement to delivery
-- Evaluate category, city, and state-level performance
-- Track operational KPIs like delivery time, on-time %, and failure rates
-3. Dataset Description
+# Revenue Leakage & Funnel Analysis (SQL + Power BI)
 
-The dataset used in this project is the Olist Brazilian E-Commerce Dataset, sourced from Kaggle.
-It contains real-world transactional data from a Brazilian e-commerce platform, including orders, customers, products, payments, reviews, and delivery information.
-This dataset enables end-to-end analysis of the order lifecycle, making it suitable for identifying revenue leakage and funnel inefficiencies.
-4. Tech Stack
-- SQL: Data extraction, joins, transformations
-- Power BI: Data modeling, dashboard creation
-- DAX: KPI calculations and measures
-5. Key Metrics
-- Revenue Leakage %
-- Cancellation Rate
-- On-Time Delivery %
-- Average Delivery Time
-- Funnel Conversion Rate
-- Average Order Value (AOV)
-6. Dashboard Overview
-Executive Summary: GMV, Orders, Revenue, Leakage %, Monthly Trends
-Delivery & Operations: On-time vs Late Deliveries, Avg Delivery Days by State
-Revenue & Risk: Leakage Trends, Category-wise Cancellations
-Categories & Geography: Revenue by Category, Top Cities & States
-7. Key Insights
-- Revenue increases with order volume, but leakage persists due to cancellations and delays
-- Certain categories have disproportionately high cancellation rates
-- High-revenue cities are not always operationally efficient
-- A small number of categories contribute heavily to total leakage
-8. Business Recommendations
-- Optimize logistics in high-delay regions
-- Reduce cancellations in high-risk categories
-- Improve last-mile delivery efficiency
-- Focus on scaling high-performing cities
-9. How to Use
-Download the .pbix file, open it in Power BI Desktop, and interact with the dashboard using filters and slicers.
-10. Future Improvements
-- Integrate real-time data
-- Perform customer segmentation analysis
+## Overview
+
+This project analyzes business performance using the **Olist Brazilian E-commerce dataset**.
+
+It focuses on identifying **revenue leakage and operational inefficiencies** across the order lifecycle by integrating:
+
+* **SQL** → Data extraction, cleaning, and transformation
+* **Power BI** → Dashboard creation and business insights
+
+---
+
+##  Problem Statement
+
+E-commerce businesses often focus on revenue growth but ignore hidden inefficiencies.
+
+Key questions addressed:
+
+* Where are orders dropping in the funnel?
+* Why are some orders not converting into successful deliveries?
+* How do operational issues impact revenue realization?
+
+---
+
+## Solution Approach
+
+1. Extracted and cleaned data using SQL
+2. Built relational data model (orders, customers, payments, reviews, etc.)
+3. Designed KPIs to track:
+
+   * Revenue leakage
+   * Funnel conversion
+   * Delivery performance
+4. Created interactive dashboards in Power BI to uncover insights
+
+---
+
+## Funnel Analysis (Where Revenue is Lost)
+
+![Funnel Analysis](assets/funnel-analysis.png)
+
+### Insights:
+
+* Orders drop between stages (Approved → Placed → Delivered)
+* ~97% conversion rate still results in significant loss at scale
+* Small inefficiencies compound into large revenue impact
+
+ **Key Takeaway:**
+Even minor drop-offs in the funnel lead to measurable revenue leakage.
+
+---
+
+## Delivery Performance (Why It Happens)
+
+![Delivery Performance](assets/delivery-performance.png)
+![Late Delivery by State](assets/late-delivery.png)
+
+### Insights:
+
+* ~8% of orders are delivered late
+* Certain regions show higher delivery delays
+* Late deliveries increase cancellations and failed orders
+
+**Key Takeaway:**
+Delivery inefficiency is a major root cause of funnel drop-offs.
+
+## Key Insights
+
+* Revenue leakage is **systematic, not random**
+* Operational performance directly impacts revenue
+* Funnel efficiency is as important as revenue growth
+
+## Tools & Technologies
+
+* **SQL** → Data extraction, joins, transformations
+* **Power BI** → Dashboard development
+* **DAX** → KPI calculations
+
+## Dataset
+This project uses the Olist Brazilian E-Commerce Dataset, which represents real-world transactional data from a multi-vendor online marketplace operating in Brazil.
+
+The dataset captures the entire lifecycle of an order, starting from purchase to delivery and customer feedback. It is designed in a relational format, where multiple tables are connected to simulate a real production-level database system.
+
+## Project Structure
+
+```id="projfinal"
+Revenue-Leakage-Analysis/
+│
+├── assets/
+├── sql/                  # SQL scripts for data processing
+├── dashboard/            # Power BI (.pbix file)
+└── README.md
+```
+
+
+## Conclusion
+
+> Revenue growth alone does not reflect business health
+
+By analyzing funnel conversion and delivery performance, this project highlights how **operational inefficiencies directly lead to revenue loss**.
+
+
+## Future Improvements
+
+* Add predictive analysis (late delivery prediction)
+* Include customer segmentation
+* Automate pipeline using Python
+
+
