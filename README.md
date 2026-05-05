@@ -88,9 +88,12 @@ The dataset captures the entire lifecycle of an order, starting from purchase to
 Revenue-Leakage-Analysis/
 │
 ├── Assets/
-├── SQL Script/                  # SQL scripts for data processing
-├── Power BI File/            # Power BI (.pbix file)
-└── README.md
+├── Power BI File/           #Power BI (.pbix file)
+├── SQL Script/              #SQL scripts for data processing
+|__ DataSource.md            #Data Source file
+└── Insights.md              #Key Findings
+|__ README.md
+
 ```
 
 
