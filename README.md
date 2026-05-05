@@ -38,7 +38,7 @@ Key questions addressed:
 
 ## Funnel Analysis (Where Revenue is Lost)
 
-![Funnel Analysis](assets/funnel-analysis.png)
+![Funnel Analysis](Assets/funnel-analysis.png)
 
 ### Insights:
 
@@ -53,8 +53,8 @@ Even minor drop-offs in the funnel lead to measurable revenue leakage.
 
 ## Delivery Performance (Why It Happens)
 
-![Delivery Performance](assets/delivery-performance.png)
-![Late Delivery by State](assets/late-delivery.png)
+![On Time Vs Late Delivery](Assets/on-time-vs-late.png)
+![Late Delivery by State](Assets/delivery-performance.png)
 
 ### Insights:
 
@@ -87,9 +87,9 @@ The dataset captures the entire lifecycle of an order, starting from purchase to
 ```id="projfinal"
 Revenue-Leakage-Analysis/
 │
-├── assets/
-├── sql/                  # SQL scripts for data processing
-├── dashboard/            # Power BI (.pbix file)
+├── Assets/
+├── SQL Script/                  # SQL scripts for data processing
+├── Power BI File/            # Power BI (.pbix file)
 └── README.md
 ```
 
